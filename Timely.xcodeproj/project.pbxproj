@@ -7,23 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		71015497E7F54D8E5A20E9D7 /* Pods_Timely.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB5B512DF3D95F0DFD4922FF /* Pods_Timely.framework */; };
+		AE4271AD28FCA5FE00493D59 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4271AC28FCA5FE00493D59 /* TimerViewController.swift */; };
 		AEFFDBA128E0EA7000BAE551 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFFDBA028E0EA7000BAE551 /* AppDelegate.swift */; };
 		AEFFDBA328E0EA7000BAE551 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFFDBA228E0EA7000BAE551 /* SceneDelegate.swift */; };
-		AEFFDBA528E0EA7000BAE551 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFFDBA428E0EA7000BAE551 /* ViewController.swift */; };
+		AEFFDBA528E0EA7000BAE551 /* TasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFFDBA428E0EA7000BAE551 /* TasksViewController.swift */; };
 		AEFFDBA828E0EA7000BAE551 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEFFDBA628E0EA7000BAE551 /* Main.storyboard */; };
 		AEFFDBAA28E0EA7700BAE551 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEFFDBA928E0EA7700BAE551 /* Assets.xcassets */; };
 		AEFFDBAD28E0EA7700BAE551 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEFFDBAB28E0EA7700BAE551 /* LaunchScreen.storyboard */; };
+		AEFFDBBA28E0ECD000BAE551 /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFFDBB928E0ECD000BAE551 /* ToDo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		158678A85E683A10E1A61F70 /* Pods-Timely.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Timely.debug.xcconfig"; path = "Target Support Files/Pods-Timely/Pods-Timely.debug.xcconfig"; sourceTree = "<group>"; };
+		264C95D3FAA5B02C86A9C948 /* Pods-Timely.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Timely.release.xcconfig"; path = "Target Support Files/Pods-Timely/Pods-Timely.release.xcconfig"; sourceTree = "<group>"; };
+		AE4271AC28FCA5FE00493D59 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
 		AEFFDB9D28E0EA7000BAE551 /* Timely.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Timely.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEFFDBA028E0EA7000BAE551 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AEFFDBA228E0EA7000BAE551 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AEFFDBA428E0EA7000BAE551 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AEFFDBA428E0EA7000BAE551 /* TasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksViewController.swift; sourceTree = "<group>"; };
 		AEFFDBA728E0EA7000BAE551 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AEFFDBA928E0EA7700BAE551 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AEFFDBAC28E0EA7700BAE551 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AEFFDBAE28E0EA7700BAE551 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEFFDBB928E0ECD000BAE551 /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
+		CB5B512DF3D95F0DFD4922FF /* Pods_Timely.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Timely.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +39,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71015497E7F54D8E5A20E9D7 /* Pods_Timely.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C837A41323DA4E1A6B6A56C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				158678A85E683A10E1A61F70 /* Pods-Timely.debug.xcconfig */,
+				264C95D3FAA5B02C86A9C948 /* Pods-Timely.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		AEFFDB9428E0EA7000BAE551 = {
 			isa = PBXGroup;
 			children = (
 				AEFFDB9F28E0EA7000BAE551 /* Timely */,
 				AEFFDB9E28E0EA7000BAE551 /* Products */,
+				4C837A41323DA4E1A6B6A56C /* Pods */,
+				FC1AA810BE583338F474DFBE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +78,47 @@
 			children = (
 				AEFFDBA028E0EA7000BAE551 /* AppDelegate.swift */,
 				AEFFDBA228E0EA7000BAE551 /* SceneDelegate.swift */,
-				AEFFDBA428E0EA7000BAE551 /* ViewController.swift */,
-				AEFFDBA628E0EA7000BAE551 /* Main.storyboard */,
+				AEFFDBB828E0ECAC00BAE551 /* Models */,
+				AEFFDBB428E0EAA000BAE551 /* Controllers */,
+				AEFFDBB528E0EAAC00BAE551 /* Views */,
 				AEFFDBA928E0EA7700BAE551 /* Assets.xcassets */,
 				AEFFDBAB28E0EA7700BAE551 /* LaunchScreen.storyboard */,
 				AEFFDBAE28E0EA7700BAE551 /* Info.plist */,
 			);
 			path = Timely;
+			sourceTree = "<group>";
+		};
+		AEFFDBB428E0EAA000BAE551 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AEFFDBA428E0EA7000BAE551 /* TasksViewController.swift */,
+				AE4271AC28FCA5FE00493D59 /* TimerViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AEFFDBB528E0EAAC00BAE551 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AEFFDBA628E0EA7000BAE551 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AEFFDBB828E0ECAC00BAE551 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AEFFDBB928E0ECD000BAE551 /* ToDo.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FC1AA810BE583338F474DFBE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB5B512DF3D95F0DFD4922FF /* Pods_Timely.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +128,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AEFFDBB128E0EA7700BAE551 /* Build configuration list for PBXNativeTarget "Timely" */;
 			buildPhases = (
+				BA46AC6D6AC4D45C2D7A866D /* [CP] Check Pods Manifest.lock */,
 				AEFFDB9928E0EA7000BAE551 /* Sources */,
 				AEFFDB9A28E0EA7000BAE551 /* Frameworks */,
 				AEFFDB9B28E0EA7000BAE551 /* Resources */,
+				BAD6A675A88ACDA94D32EBEF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +189,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		BA46AC6D6AC4D45C2D7A866D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Timely-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BAD6A675A88ACDA94D32EBEF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Timely/Pods-Timely-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Timely/Pods-Timely-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Timely/Pods-Timely-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AEFFDB9928E0EA7000BAE551 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEFFDBA528E0EA7000BAE551 /* ViewController.swift in Sources */,
+				AE4271AD28FCA5FE00493D59 /* TimerViewController.swift in Sources */,
+				AEFFDBA528E0EA7000BAE551 /* TasksViewController.swift in Sources */,
 				AEFFDBA128E0EA7000BAE551 /* AppDelegate.swift in Sources */,
 				AEFFDBA328E0EA7000BAE551 /* SceneDelegate.swift in Sources */,
+				AEFFDBBA28E0ECD000BAE551 /* ToDo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +382,7 @@
 		};
 		AEFFDBB228E0EA7700BAE551 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 158678A85E683A10E1A61F70 /* Pods-Timely.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +411,7 @@
 		};
 		AEFFDBB328E0EA7700BAE551 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 264C95D3FAA5B02C86A9C948 /* Pods-Timely.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
